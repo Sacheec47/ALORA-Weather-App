@@ -180,18 +180,3 @@ if (navigator.geolocation){
   
 }
 }
-
-
-
-
-//window.setTimeout(bChange,8000);
-//function bChange(){
-//if (backgroundCondition == "Sunny"){  
-//document.body.style.backgroundImage = "url('https://images.unsplash.com/photo-1507898152394-7dd0e22fe102?auto=format&fit=crop&w=1500&q=80')";
-//};
-//}
-/* var wBWidth = document.getElementById("weatherBox").offsetWidth;
-var innerwidth = document.getElementById("inner").offsetWidth;
-var setMiddle = (((wBWidth-innerwidth)/2) -15);
-    $("h1").text(wBWidth);
-  $(".switch").css("left", setMiddle); */
