@@ -1,0 +1,92 @@
+h1{
+  
+  font-family: Raleway;
+  font-size: 34px;  
+  text-shadow: .5px .5px black;  
+}
+h3{
+  
+  font-family: Raleway;
+  font-size: 12px;
+  text-shadow: .5px .5px black;  
+}
+img {
+    display: block;
+    margin: auto;
+}
+.initial{
+  background-image:url("https://raw.githubusercontent.com/Sacheec47/ALORA-Weather-App/master/heaven1.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: No-repeat;
+  margin-top: 0px;
+  height: auto;
+  background-attachment: fixed;
+  }
+h4{
+  margin-top:40px; 
+  color: white; 
+  font-family: Raleway;
+  font-size: 20px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+}
+.border {
+  margin-top:30px; 
+  border: 2px solid grey;
+  border-radius: 20px;
+  padding: 1em;
+  background-color: rgba(0, 0, 0, 0.3);
+  min-height: 450px;
+}
+
+/*CSS for toggle switch */
+#toggleLabel{
+  opacity: 0;
+  
+ }
+input{
+  display: none;
+}
+.switch{
+  position: relative;
+  width: 70px;
+  height: 32px;
+  margin-left: 10%;
+}
+.inner{
+  background: #333;
+  border-radius: 20px;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: .5s;
+    
+}
+.inner:before{
+  position:absolute;
+  background: #fff;
+  content: "";
+  height: 28px;
+  width: 30px;
+  left: 2px;
+  bottom: 2px;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+input:checked + .inner{
+  background: #056a9c;
+}
+input:checked + .inner:before{
+  transform: translateX(36px);
+}
+/*end of CSS for toggle switch */
+
+#toggleDiv{
+  margin-top: 2px;
+  margin-bottom: 0;
+  position: relative;
+  
+}

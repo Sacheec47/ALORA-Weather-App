@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Local Weather App</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <!--Importing Raleway font and font awesome -->
+<header>
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</header>
+
+<!-- Code below this line -->
+<body id="initial" class="initial">
+
+<!--Setting the title-->
+<h1 class="text-center" style="padding-top:10px; color:white; font-family: Raleway;">ALORA Local Weather App</h1>
+
+<!--Weather app styling is below this line -->
+  <div>
+  <div id="weatherBox" class="border col-sm-8 col-sm-offset-2" style="margin-bottom: 60px;">
+  <h4 id="geoLocation" class="text-center" style="margin-top:50px;"></h4>
+  <h4 id="temp" class="text-center" style="margin-bottom:0"></h4>
+  <h4 id="tempF" class="text-center" style="margin-top:0"></h4>
+  
+    <!--Toggle switch for temp measures --> 
+    <div class="row">
+      <div id= "toggleDiv" class="col-xs-2 col-xs-offset-5">
+  <label id= "toggleLabel" class="switch" style="margin-top:5px;">
+  <input id="checkbox"  type ="checkbox" onchange="generateTxt()">
+  <div id ="inner" class="inner">
+  <p style="margin-left:12px; margin-top: 7px;">'C</p>
+    <p style="margin-left:45px; margin-top: -30px; color: white;">F</p>
+    </div>
+    </input>
+    </label>
+    </div>
+    </div>
+  
+<!--end of toggle switch -->   
+  <div>
+   <h4 id="condition" class="text-center" ><span id="slider" class="slider"></span></h4>
+  <img align="middle" style="margin-bottom: 20px;">   
+    </div>
+    </div>
+  </div>
+
+<!--Footer -->
+<div class="row">
+<div class="col-xs-12">   
+<h3 class="text-center">Copyright © ALORA Design Studio 2017. All Rights Reserved.</h3>
+</div>  
+  </div>
+  </body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
